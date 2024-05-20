@@ -2,10 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/supports',
   title: "NotReal003 Support Desk",
   description: "Support Help Desk",
-  base: '/supports',
-
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
