@@ -36,9 +36,12 @@
     "type": "improvement",
     "title": "Route Cleanup",
     "changes": [
-      "Removed obsolete API routes.",
-      "Cleaned up legacy route handling.",
-      "Removed unused route functionality from the backend."
+      "Removed Hytale username checker.",
+      "Removed unused AnalyticsEvent and axios imports.",
+      "Removed old video, Season 5, and Minecraft redirects.",
+      "Updated Sentralia source URL.",
+      "Updated Product Hunt URL.",
+      "Simplified unused route parameters.",
     ]
   },
   {
