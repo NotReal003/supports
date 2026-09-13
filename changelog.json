@@ -139,11 +139,14 @@
     "commit": "882322889e05e217d9cd9cd3a3e030741f583e01",
     "date": "2026-07-15",
     "type": "improvement",
-    "title": "Cookie & Logout Updates",
+    "title": "Centralized API Client & Request Handling",
     "changes": [
-      "Refactored cookie management.",
-      "Updated the logout message.",
-      "Improved authentication state handling."
+      "Added a shared API utility for frontend requests.",
+      "Migrated frontend API calls to the shared API client.",
+      "Centralized authorization headers.",
+      "Updated authentication and logout requests.",
+      "Updated admin, profile, performance, and request API calls.",
+      "Removed redundant API environment configuration."
     ]
   },
   {
