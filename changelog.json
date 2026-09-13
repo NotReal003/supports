@@ -2,7 +2,7 @@
   {
     "version": "733d26f",
     "commit": "733d26f04e617e06b14f4b5bdaf921528524c903",
-    "date": "2026-09-13",
+    "date": "2026-09-12",
     "type": "improvement",
     "title": "AI & Admin Improvements",
     "changes": [
@@ -44,7 +44,7 @@
   {
     "version": "d4ada56",
     "commit": "d4ada5683b71ae1648232fac3b1ff39f2cc054ad",
-    "date": "2026-09-12",
+    "date": "2026-08-20",
     "type": "improvement",
     "title": "Audit Logs Routing",
     "changes": [
@@ -55,7 +55,7 @@
   {
     "version": "0fe3524",
     "commit": "0fe3524c29772721e6f6e115b16b8c452c194db1",
-    "date": "2026-09-12",
+    "date": "2026-08-20",
     "type": "improvement",
     "title": "Frontend Cleanup",
     "changes": [
@@ -66,165 +66,155 @@
   {
     "version": "e3ae681",
     "commit": "e3ae68133cad8385d98393cba9a7969fd5b5da96",
-    "date": "2026-09-12",
-    "type": "improvement",
-    "title": "Authentication Updates",
+    "date": "2026-08-20",
+    "type": "feature",
+    "title": "Audit Logs Export",
     "changes": [
-      "Updated API authentication handling.",
-      "Improved authorization and request processing.",
-      "Cleaned up authentication-related backend functionality."
+      "Added Audit Logs export to the application index.",
+      "Made the Audit Logs functionality available through the frontend."
     ]
   },
   {
     "version": "ddda701",
     "commit": "ddda7014153d359976b1ad19ab28785d1939d42d",
-    "date": "2026-09-12",
+    "date": "2026-08-20",
     "type": "feature",
     "title": "Audit Logs Interface",
     "changes": [
       "Added the Audit Logs interface.",
+      "Added activity log viewing.",
       "Added audit log searching and filtering.",
-      "Added support for copying audit log IDs.",
-      "Integrated audit data into the admin interface."
+      "Added support for copying audit log IDs."
     ]
   },
   {
     "version": "af25f63",
     "commit": "af25f63d3341fb5878e9ea8f98c4094285bd4454",
-    "date": "2026-09-12",
+    "date": "2026-08-20",
     "type": "improvement",
     "title": "Domain Migration",
     "changes": [
-      "Updated application URLs and domain references.",
-      "Migrated frontend links to the new domain.",
-      "Removed remaining legacy domain references."
+      "Updated footer links to the new domain.",
+      "Migrated application links to the new domain."
     ]
   },
   {
     "version": "d51d518",
     "commit": "d51d5188ce6deef0623f58e01bb12d84cc9e0b61",
-    "date": "2026-09-12",
+    "date": "2026-08-20",
     "type": "improvement",
-    "title": "Cookie Authentication",
+    "title": "Unavailability Cleanup",
     "changes": [
-      "Updated authentication to use cookies.",
-      "Improved session handling.",
-      "Updated logout and authentication state handling."
+      "Removed the Unavailability component from the application.",
+      "Cleaned up related frontend functionality."
     ]
   },
   {
     "version": "dd99583",
     "commit": "dd995835f714709930fabd0c949692d906c62033",
-    "date": "2026-09-12",
+    "date": "2026-07-16",
     "type": "improvement",
-    "title": "OAuth Updates",
+    "title": "Frontend Updates",
     "changes": [
-      "Updated OAuth callback handling.",
-      "Improved Google authentication integration.",
-      "Improved Discord authentication integration.",
-      "Updated authentication configuration."
+      "Updated the frontend index configuration.",
+      "Updated authentication-related frontend configuration."
     ]
   },
   {
     "version": "5cea18e",
     "commit": "5cea18e7827c9a16a73fac91c8254eb74a5cc548",
-    "date": "2026-09-12",
+    "date": "2026-07-15",
     "type": "improvement",
-    "title": "API Authorization",
+    "title": "Navigation Updates",
     "changes": [
-      "Improved Authorization header handling.",
-      "Updated API authentication utilities.",
-      "Improved authenticated API requests."
+      "Updated the Home link URL in the Navbar.",
+      "Updated frontend navigation to use the current domain."
     ]
   },
   {
     "version": "8823228",
     "commit": "882322889e05e217d9cd9cd3a3e030741f583e01",
-    "date": "2026-09-12",
+    "date": "2026-07-15",
     "type": "improvement",
-    "title": "API Configuration",
+    "title": "Cookie & Logout Updates",
     "changes": [
-      "Updated API configuration.",
-      "Improved frontend API connectivity.",
-      "Cleaned up API-related configuration."
+      "Refactored cookie management.",
+      "Updated the logout message.",
+      "Improved authentication state handling."
     ]
   },
   {
     "version": "df9d232",
     "commit": "df9d232ad2c938b4d8c89c7ab1bf3f6af9c4db3d",
-    "date": "2026-09-12",
+    "date": "2026-07-15",
     "type": "improvement",
-    "title": "Component Cleanup",
+    "title": "Documentation Updates",
     "changes": [
-      "Removed obsolete components.",
-      "Cleaned up unused application functionality.",
-      "Updated related frontend references."
+      "Updated the project README.",
+      "Updated project documentation and references."
     ]
   },
   {
     "version": "f1cd4dd",
     "commit": "f1cd4dd512e10504dd0a0eaab249b7e7cc96b5b5",
-    "date": "2026-09-12",
+    "date": "2026-07-15",
     "type": "improvement",
-    "title": "Analytics & Route Cleanup",
+    "title": "Discord Authentication Updates",
     "changes": [
-      "Removed obsolete analytics functionality.",
-      "Removed unused route handling.",
-      "Cleaned up related backend code."
+      "Updated the Discord OAuth callback.",
+      "Improved Discord authentication handling."
     ]
   },
   {
     "version": "d996639",
     "commit": "d996639483da2a4666f1b61b1a046637bfac0af6",
-    "date": "2026-09-12",
+    "date": "2026-07-15",
     "type": "improvement",
-    "title": "Backend Route Cleanup",
+    "title": "Google Authentication Updates",
     "changes": [
-      "Removed obsolete API routes.",
-      "Cleaned up unused backend functionality.",
-      "Updated route configuration."
+      "Updated the Google OAuth callback.",
+      "Improved Google authentication handling."
     ]
   },
   {
     "version": "d0b1deb",
     "commit": "d0b1deb3338a73cdc67cf5809478927268c2f51e",
-    "date": "2026-09-12",
+    "date": "2026-07-15",
     "type": "improvement",
-    "title": "Hytale Route Removal",
+    "title": "Google Authentication Updates",
     "changes": [
-      "Removed the obsolete Hytale username proxy.",
-      "Cleaned up related API functionality."
+      "Updated Google authentication configuration.",
+      "Improved Google OAuth integration."
     ]
   },
   {
     "version": "cd03201",
     "commit": "cd03201babf77d5644969752a1f568b68c3ee33e",
-    "date": "2026-09-12",
-    "type": "improvement",
-    "title": "API Utility & Authentication Updates",
+    "date": "2026-07-01",
+    "type": "feature",
+    "title": "API Utilities & Authorization",
     "changes": [
-      "Updated the shared API utility.",
-      "Improved authentication handling.",
-      "Updated API request configuration.",
-      "Cleaned up related frontend and backend integration."
+      "Added shared API utilities.",
+      "Added Authorization header handling.",
+      "Updated the request sender.",
+      "Improved authenticated API requests."
     ]
   },
   {
     "version": "421242d",
     "commit": "421242d6c05002088ac5980b0d40f922022e42af",
-    "date": "2026-09-12",
+    "date": "2026-07-01",
     "type": "improvement",
-    "title": "Navigation & Domain Updates",
+    "title": "Domain Documentation",
     "changes": [
-      "Updated navbar links.",
-      "Updated index and footer references.",
-      "Migrated remaining application links to the new domain."
+      "Updated the README with domain usage information.",
+      "Documented the current application domains."
     ]
   },
   {
     "version": "f923b17",
     "commit": "f923b17f48a89da6568ecbbccafe29e3cfd956e4",
-    "date": "2026-09-12",
+    "date": "2026-06-27",
     "type": "feature",
     "title": "Sentralia Goes Open Source",
     "changes": [
@@ -236,19 +226,19 @@
   {
     "version": "7f96a12",
     "commit": "7f96a1213d1aa11785d35792271e9682a9abbbbb",
-    "date": "2026-09-12",
+    "date": "2026-06-27",
     "type": "improvement",
     "title": "Documentation & Project Updates",
     "changes": [
       "Updated the project README.",
       "Expanded project documentation.",
-      "Updated repository configuration and references."
+      "Updated repository references."
     ]
   },
   {
     "version": "34f41c3",
     "commit": "34f41c3be205bb1273095f513cd4e217f63b3897",
-    "date": "2026-09-12",
+    "date": "2026-06-27",
     "type": "feature",
     "title": "Sentralia Repository Created",
     "changes": [
