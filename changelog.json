@@ -3,16 +3,15 @@
     "version": "733d26f",
     "commit": "733d26f04e617e06b14f4b5bdaf921528524c903",
     "date": "2026-09-13",
-    "type": "feature",
+    "type": "improvement",
     "title": "AI & Admin Improvements",
     "changes": [
       "Added Gemini API configuration.",
-      "Updated Gemini model and AI admin routes.",
-      "Added admin/staff authentication for AI tools.",
-      "Removed old route logging paths.",
-      "Updated documentation links.",
-      "Changed blacklist endpoint to return count only.",
-      "Cleaned up unused dependencies."
+      "Updated the Gemini model used by admin AI tools.",
+      "Added shared admin and staff authentication for AI routes.",
+      "Removed unused Google APIs and DNS dependencies.",
+      "Simplified the blacklist endpoint to return its count.",
+      "Updated backend documentation and environment configuration."
     ]
   },
   {
@@ -22,12 +21,12 @@
     "type": "improvement",
     "title": "API & Frontend Cleanup",
     "changes": [
-      "Removed unused analytics and unavailability components.",
-      "Updated API environment configuration.",
-      "Updated footer links to the new domain.",
+      "Removed the unused AnalyticsEvent model.",
+      "Removed the old Unavailability component.",
+      "Simplified frontend API environment configuration.",
+      "Updated footer links to the new Pages domain.",
       "Switched Audit Logs to the shared API client.",
-      "Removed unused MAIN_API configuration.",
-      "Cleaned up README configuration examples."
+      "Removed the unused MAIN_API configuration."
     ]
   },
   {
@@ -35,13 +34,11 @@
     "commit": "af1aa184adf484e773bf910fbf95fc9403ff7cab",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "Audit Logs & API Improvements",
+    "title": "Route Cleanup",
     "changes": [
-      "Added Audit Logs functionality.",
-      "Added Audit Logs API integration.",
-      "Added Audit Logs export functionality.",
-      "Updated routing for Audit Logs.",
-      "Improved API integration and administration."
+      "Removed obsolete API routes.",
+      "Cleaned up legacy route handling.",
+      "Removed unused route functionality from the backend."
     ]
   },
   {
@@ -49,23 +46,21 @@
     "commit": "d4ada5683b71ae1648232fac3b1ff39f2cc054ad",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "Audit Logs Integration",
+    "title": "Audit Logs Routing",
     "changes": [
-      "Integrated Audit Logs into the admin interface.",
-      "Added Audit Logs navigation and management.",
-      "Updated related API functionality."
+      "Updated application routing for Audit Logs.",
+      "Integrated the Audit Logs page into the admin interface."
     ]
   },
   {
     "version": "0fe3524",
     "commit": "0fe3524c29772721e6f6e115b16b8c452c194db1",
     "date": "2026-09-12",
-    "type": "feature",
-    "title": "Audit Logs",
+    "type": "improvement",
+    "title": "Frontend Cleanup",
     "changes": [
-      "Added Audit Logs model and functionality.",
-      "Added support for recording administrative actions.",
-      "Added Audit Logs API functionality."
+      "Removed the unused Ads component import.",
+      "Cleaned up related frontend code."
     ]
   },
   {
@@ -73,23 +68,24 @@
     "commit": "e3ae68133cad8385d98393cba9a7969fd5b5da96",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "API & Authentication Cleanup",
+    "title": "Authentication Updates",
     "changes": [
       "Updated API authentication handling.",
-      "Improved authorization and request handling.",
-      "Cleaned up related backend functionality."
+      "Improved authorization and request processing.",
+      "Cleaned up authentication-related backend functionality."
     ]
   },
   {
     "version": "ddda701",
     "commit": "ddda7014153d359976b1ad19ab28785d1939d42d",
     "date": "2026-09-12",
-    "type": "improvement",
-    "title": "Frontend & Domain Updates",
+    "type": "feature",
+    "title": "Audit Logs Interface",
     "changes": [
-      "Updated frontend configuration.",
-      "Updated domain references.",
-      "Improved frontend integration with the updated API."
+      "Added the Audit Logs interface.",
+      "Added audit log searching and filtering.",
+      "Added support for copying audit log IDs.",
+      "Integrated audit data into the admin interface."
     ]
   },
   {
@@ -100,8 +96,8 @@
     "title": "Domain Migration",
     "changes": [
       "Updated application URLs and domain references.",
-      "Updated frontend links for the new domain.",
-      "Cleaned up legacy domain references."
+      "Migrated frontend links to the new domain.",
+      "Removed remaining legacy domain references."
     ]
   },
   {
@@ -109,11 +105,11 @@
     "commit": "d51d5188ce6deef0623f58e01bb12d84cc9e0b61",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "Authentication & Cookie Updates",
+    "title": "Cookie Authentication",
     "changes": [
-      "Updated authentication handling.",
-      "Improved cookie-based authentication.",
-      "Updated logout and session handling."
+      "Updated authentication to use cookies.",
+      "Improved session handling.",
+      "Updated logout and authentication state handling."
     ]
   },
   {
@@ -121,10 +117,11 @@
     "commit": "dd995835f714709930fabd0c949692d906c62033",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "OAuth & Authentication Updates",
+    "title": "OAuth Updates",
     "changes": [
       "Updated OAuth callback handling.",
-      "Improved Google and Discord authentication integration.",
+      "Improved Google authentication integration.",
+      "Improved Discord authentication integration.",
       "Updated authentication configuration."
     ]
   },
@@ -133,7 +130,7 @@
     "commit": "5cea18e7827c9a16a73fac91c8254eb74a5cc548",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "API Authorization Updates",
+    "title": "API Authorization",
     "changes": [
       "Improved Authorization header handling.",
       "Updated API authentication utilities.",
@@ -145,7 +142,7 @@
     "commit": "882322889e05e217d9cd9cd3a3e030741f583e01",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "API Configuration Updates",
+    "title": "API Configuration",
     "changes": [
       "Updated API configuration.",
       "Improved frontend API connectivity.",
@@ -156,8 +153,8 @@
     "version": "df9d232",
     "commit": "df9d232ad2c938b4d8c89c7ab1bf3f6af9c4db3d",
     "date": "2026-09-12",
-    "type": "cleanup",
-    "title": "Legacy Component Cleanup",
+    "type": "improvement",
+    "title": "Component Cleanup",
     "changes": [
       "Removed obsolete components.",
       "Cleaned up unused application functionality.",
@@ -168,7 +165,7 @@
     "version": "f1cd4dd",
     "commit": "f1cd4dd512e10504dd0a0eaab249b7e7cc96b5b5",
     "date": "2026-09-12",
-    "type": "cleanup",
+    "type": "improvement",
     "title": "Analytics & Route Cleanup",
     "changes": [
       "Removed obsolete analytics functionality.",
@@ -180,8 +177,8 @@
     "version": "d996639",
     "commit": "d996639483da2a4666f1b61b1a046637bfac0af6",
     "date": "2026-09-12",
-    "type": "cleanup",
-    "title": "Route Cleanup",
+    "type": "improvement",
+    "title": "Backend Route Cleanup",
     "changes": [
       "Removed obsolete API routes.",
       "Cleaned up unused backend functionality.",
@@ -192,8 +189,8 @@
     "version": "d0b1deb",
     "commit": "d0b1deb3338a73cdc67cf5809478927268c2f51e",
     "date": "2026-09-12",
-    "type": "cleanup",
-    "title": "Hytale Proxy Removal",
+    "type": "improvement",
+    "title": "Hytale Route Removal",
     "changes": [
       "Removed the obsolete Hytale username proxy.",
       "Cleaned up related API functionality."
@@ -203,12 +200,13 @@
     "version": "cd03201",
     "commit": "cd03201babf77d5644969752a1f568b68c3ee33e",
     "date": "2026-09-12",
-    "type": "cleanup",
-    "title": "Unavailability Cleanup",
+    "type": "improvement",
+    "title": "API Utility & Authentication Updates",
     "changes": [
-      "Removed the old Unavailability component.",
-      "Removed obsolete closure-related frontend functionality.",
-      "Cleaned up related references."
+      "Updated the shared API utility.",
+      "Improved authentication handling.",
+      "Updated API request configuration.",
+      "Cleaned up related frontend and backend integration."
     ]
   },
   {
@@ -227,11 +225,12 @@
     "version": "f923b17",
     "commit": "f923b17f48a89da6568ecbbccafe29e3cfd956e4",
     "date": "2026-09-12",
-    "type": "cleanup",
-    "title": "Ads Component Removal",
+    "type": "feature",
+    "title": "Sentralia Goes Open Source",
     "changes": [
-      "Removed the Ads component.",
-      "Cleaned up unused advertisement-related code."
+      "Published the Sentralia source code.",
+      "Added the complete public project structure.",
+      "Prepared Sentralia for open-source development."
     ]
   },
   {
@@ -239,23 +238,23 @@
     "commit": "7f96a1213d1aa11785d35792271e9682a9abbbbb",
     "date": "2026-09-12",
     "type": "improvement",
-    "title": "Project Configuration Updates",
+    "title": "Documentation & Project Updates",
     "changes": [
-      "Updated project configuration.",
-      "Improved repository setup and documentation.",
-      "Cleaned up project references."
+      "Updated the project README.",
+      "Expanded project documentation.",
+      "Updated repository configuration and references."
     ]
   },
   {
     "version": "34f41c3",
     "commit": "34f41c3be205bb1273095f513cd4e217f63b3897",
     "date": "2026-09-12",
-    "type": "initial",
-    "title": "Open Source Repository Setup",
+    "type": "feature",
+    "title": "Sentralia Repository Created",
     "changes": [
-      "Prepared Sentralia for open-source development.",
-      "Added and updated project documentation.",
-      "Established the public repository structure."
+      "Created the Sentralia repository.",
+      "Added the initial project README.",
+      "Added the project license."
     ]
   }
 ]
