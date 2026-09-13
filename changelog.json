@@ -1,0 +1,33 @@
+[
+  {
+    "version": "733d26f",
+    "commit": "733d26f04e617e06b14f4b5bdaf921528524c903",
+    "date": "2026-09-13",
+    "type": "feature",
+    "title": "AI & Admin Improvements",
+    "changes": [
+      "Added Gemini API configuration.",
+      "Updated Gemini model and AI admin routes.",
+      "Added admin/staff authentication for AI tools.",
+      "Removed old route logging paths.",
+      "Updated documentation links.",
+      "Changed blacklist endpoint to return count only.",
+      "Cleaned up unused dependencies."
+    ]
+  },
+  {
+    "version": "f7dfcae",
+    "commit": "f7dfcae9c526d495706d87ee00ed0309e741951d",
+    "date": "2026-09-12",
+    "type": "improvement",
+    "title": "API & Frontend Cleanup",
+    "changes": [
+      "Removed unused analytics and unavailability components.",
+      "Updated API environment configuration.",
+      "Updated footer links to the new domain.",
+      "Switched Audit Logs to the shared API client.",
+      "Removed unused MAIN_API configuration.",
+      "Cleaned up README configuration examples."
+    ]
+  }
+]
